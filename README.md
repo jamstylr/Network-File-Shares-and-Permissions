@@ -2,6 +2,8 @@
   <img src=https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/d3f2745c-1237-4b22-91b7-5f1852398133/>
 </p>
 
+<h1>Network File Shares and Permissions</h1>
+This tutorial examines file permissions and shares within an Active Directory domain environment. These elements are pivotal in ensuring that users are granted appropriate permissions and access to essential files they need. This tutorial builds upon a previous lab where I set up a client connected to the domain “mydomain.com". On the Domain Controller VM, I'm logged in as mydomain.com\jane_admin. On the Client VM, I am logged in as a random user that was generated through the Powershell script in the Active Directory lab.
 
 <h2>Environments and Technologies Used</h2>
 
