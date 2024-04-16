@@ -35,6 +35,11 @@ To share a folder and allocate permissions, access the folder's Properties and s
 </p>
 <br />
 
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/60514ab2-84ee-44b9-8800-f775d488934f)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/e4866a8c-1da5-400c-8d2e-142f38d5a596)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/f71cd233-6b74-4fed-a3cb-dac0727f1c72)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/b6c17e07-a667-4743-9d06-7fa0af5ab4bb)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/7a36fe7e-cdb4-4936-8d49-b64dc8c84120)
 <p>
 Login to Client-1 VM as a normal user and navigate to the shared folders by opening File Explorer and entering the path: \\dc-1. You can also do this by right clicking on Start, select "Run," and type “\\dc-1”. You can create a text file inside of the “write-access” folder because the permissions are set to Read/Write. In the “read-access” folder, you'll find you can view files but not add new ones. As for the “no-access” folder, access is completely denied. These permissions are tied to the Security Groups that Domain Users belong to, along with the folder-specific permissions set for those groups.
 </p>
