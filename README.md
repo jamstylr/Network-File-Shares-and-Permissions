@@ -58,6 +58,13 @@ Return to the Domain Controller VM (DC-1) and open Active Directory Users and Co
 </p>
 <br />
 
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/05eb1faa-3479-4c6c-9f62-a0b44591b194)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/eee26088-e13a-405d-812d-8f6f1dad1aab)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/d2cfb954-1855-4718-839b-b5f5c9d02563)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/6af8f1f4-ae77-4e0d-a8d6-1595771e43ea)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/91b58a59-545d-44ff-bec5-45d9de81b2a4)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/93fbaa0e-a81a-4ce6-8345-077fe4a4d082)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/bcdac863-ff45-4ec3-bb3c-7a147c637fe5)
 <p>
 If you go back to Client-1 VM, you will notice that the user you are logged in with still doesn’t have access to the "accounting" folder. This is because the user is not a member of the ACCOUNTANTS group. To add this user to the group, first logoff Client-1. Next, go back to DC-1 -> Active Directory Users and Computers -> _SECURITY_GROUPS -> right click on ACCOUNTANTS and open Properties -> Members -> Add -> write in the user name from Client-1 -> Check Names -> Ok -> Apply -> Ok. Now go back to Client-1 and login as the user and you should now have access to the “accounting” folder.
 </p>
