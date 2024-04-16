@@ -18,11 +18,17 @@ This tutorial examines file permissions and shares within an Active Directory do
 
 <h2>File Permissions Configuration Steps</h2>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/b2d3771b-9bef-424a-b08e-89726d6e5ed3)
 <p>
-In this lab, we'll set up shared network files and configure permissions accordingly. We'll create folders on the C:\ drive of the DC-1 VM and distribute them across the network, assigning specific permissions to individual files. Access to certain files will be restricted to designated individuals. First, we will create 4 folders located in the C:\ drive on DC-1. We'll then share these folders across the network to grant Client-1 access to them.
+In this lab, we'll set up shared network files and configure permissions accordingly. We'll create folders on the C:\ drive of the DC-1 VM and distribute them across the network, assigning specific permissions to individual files. Access to certain files will be restricted to designated individuals. First, we will create 4 folders located in the C:\ drive on DC-1. The 4 folders will be named: "read-access", "write-access", "no-access", and "accounting". We'll then share these folders across the network to grant Client-1 access to them.
 </p>
 <br />
+
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/a0fcf52e-e45c-4f48-b14d-560d0dd098fc)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/ad201111-13f3-4fa6-a65d-46791f6ac19a)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/6fa67eb5-ef68-4a01-82ef-180fbe97d970)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/4cacffc3-7546-48a2-8eab-a34d10ce82e3)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/c8948666-04d7-49ad-92cf-6c7e13d80699)
 
 <p>
 To share a folder and allocate permissions, access the folder's Properties and select "Share" within the "Sharing" tab. From there, you can designate network users to share with and allocate suitable permissions. Create the 4 following folders and permissions: “read-access”: should be shared with Domain Users and set Permissions to Read. “write-access”: should be shared with Domain Users and set Permissions to Read/Write. “no-access”: should be shared with Domain Admins and set Permissions to Read\Write. “accounting”: create the folder but skip share/permissions for now.
