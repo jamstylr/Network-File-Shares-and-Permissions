@@ -45,6 +45,14 @@ Login to Client-1 VM as a normal user and navigate to the shared folders by open
 </p>
 <br />
 
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/900483f4-1e1f-4de9-92a5-6d6bac350836)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/43bdb5c9-b092-46fa-8559-c8d595b86b3a)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/47ac8932-a09e-461c-bbb8-44031169b9bf)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/d3e4aecf-84b7-4b7a-bc05-a8360c647b9c)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/f635b6ed-aee0-47a2-81a6-95614f3d8d67)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/3886c1da-95ea-44dc-b608-be14be16d51f)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/703a8e05-98b5-474e-8bb1-bfd4585481f8)
+![image](https://github.com/jamstylr/Network-File-Shares-and-Permissions/assets/159660523/58f67bce-3cb9-4e07-8d5f-9d378a4fb6a4)
 <p>
 Return to the Domain Controller VM (DC-1) and open Active Directory Users and Computers. Here, create a new Organizational Unit named “_SECURITY_GROUPS”. Right-click on it to create a new group named “ACCOUNTANTS” with GroupType set to “Security”. Afterward, revisit the “accounting” folder we set up earlier. Share this folder with the ACCOUNTANTS group and set its permissions to Read/Write.
 </p>
